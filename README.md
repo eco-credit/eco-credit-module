@@ -1,6 +1,3 @@
-bash -lc 'set -e
-cd /var/www/html/eco-credit-module-clean
-cat > README.md <<"MD"
 # Eco Credit Module for OpenImpact
 
 A Laravel package that provides a simple credits/savings ledger for individuals and groups. It ships Livewire components, Blade views, and a `transactions` table migration to track:
