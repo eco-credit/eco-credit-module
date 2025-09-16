@@ -1,0 +1,22 @@
+{
+    "name": "tadg-keating-webb/eco-credit-module",
+    "autoload": {
+        "psr-4": {
+            "TadgKeatingWebb\\EcoCreditModule\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tadg Keating Webb",
+            "email": "tadgkeating@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TadgKeatingWebb\\EcoCreditModule\\Providers\\EcoCreditModuleProvider"
+            ]
+        }
+    },
+    "require": {}
+}
